@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=VT323&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Nosifer", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.5s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.AppBar {
+  transition: background-color 0.5s ease !important;
+}
+
+.ListItem {
+  transition: background-color 0.5s ease;
+}
+
+.Button {
+  transition: background-color 0.7s ease !important;
+}
+
+.card {
+  background-color: #616161 !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: transform 0.6s, background-color 0.6s;
+}
+
+.card:hover {
+  transform: scale(1.09);
+}
+
+.card img {
+  transition: filter 0.3s ease;
+  filter: grayscale(0.7);
+}
+
+.card:hover img {
+  filter: grayscale(0);
+}
